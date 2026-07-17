@@ -241,6 +241,7 @@
           </ct:object>
           <ct:object name="Object1" uuid="21478f53-5513-49f3-abb4-e7659f92f20c">
             <ct:parameter name="Parameter" uuid="c98a0a22-0d57-440f-999c-01968519a84a" type="bool" direction="in" />
+            <ct:parameter name="Parameter1" uuid="4fc844b5-c30e-4f15-bf97-623b11345dfe" type="int64" direction="in" />
           </ct:object>
         </dp:application-object>
       </srv:io-server>

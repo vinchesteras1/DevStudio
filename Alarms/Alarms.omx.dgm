@@ -160,4 +160,7 @@
     <tcp-server Id="26f69a98-a93c-410b-8011-f1bbbff0e634" Left="914.6866666666667" Top="175.18" Width="108.31333333333333" Height="99.59" />
     <history-module Id="c21016cf-632f-4425-a8e9-02722f1556a1" Left="62" Top="175.17999999999995" Width="134.44333333333333" Height="99.59" />
   </io-server>
+  <object Id="21478f53-5513-49f3-abb4-e7659f92f20c" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <parameter Id="c98a0a22-0d57-440f-999c-01968519a84a" Left="22" Top="22" Width="99.82666666666667" Height="22" />
+  </object>
 </Diagrams>

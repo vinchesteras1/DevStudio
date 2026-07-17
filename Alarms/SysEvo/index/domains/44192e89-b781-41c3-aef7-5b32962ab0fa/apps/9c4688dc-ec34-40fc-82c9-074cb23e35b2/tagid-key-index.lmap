@@ -287,4 +287,8 @@
     <node-path>Object1.Parameter</node-path>
     <key>172</key>
   </item>
+  <item>
+    <node-path>Object1.Parameter1</node-path>
+    <key>173</key>
+  </item>
 </root>
