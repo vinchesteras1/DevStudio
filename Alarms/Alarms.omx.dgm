@@ -24,9 +24,10 @@
     <application-object Id="9c4688dc-ec34-40fc-82c9-074cb23e35b2" Left="309" Top="41" Width="150" Height="100" />
   </io-server>
   <application-object Id="9c4688dc-ec34-40fc-82c9-074cb23e35b2" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
-    <object Id="3381194c-2bf7-404d-b461-a2b3f3fa9673" Left="159" Top="26" Width="150" Height="100" />
-    <object Id="eaa143d4-7a03-40d0-aa3d-ac2e8f329b42" Left="432" Top="78" Width="150" Height="100" />
-    <object Id="4f7f5a23-9dc9-4fdb-b71c-509f81a81295" Left="66" Top="235" Width="150" Height="100" />
+    <object Id="3381194c-2bf7-404d-b461-a2b3f3fa9673" Left="159" Top="22" Width="150" Height="100" />
+    <object Id="eaa143d4-7a03-40d0-aa3d-ac2e8f329b42" Left="432" Top="74" Width="150" Height="100" />
+    <object Id="4f7f5a23-9dc9-4fdb-b71c-509f81a81295" Left="66" Top="231" Width="150" Height="100" />
+    <object Id="0c7acf1b-6676-46a6-8b13-fcc2b2d32044" Left="371" Top="266" Width="150" Height="100" />
   </application-object>
   <object Id="3381194c-2bf7-404d-b461-a2b3f3fa9673" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
     <object Id="bdbb85f1-5b05-4e38-afa0-db427d116e1a" Left="323" Top="26" Width="150" Height="100" />
@@ -131,7 +132,7 @@
     <parameter Id="2690bd1b-9dc3-4829-aed7-eec90384b5b8" Left="108" Top="26" Width="103.826666666667" Height="22" />
   </object>
   <object Id="4f7f5a23-9dc9-4fdb-b71c-509f81a81295" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
-    <parameter Id="50b760fd-3f9c-4394-8777-6393f7cacfd2" Left="830.173333333333" Top="26" Width="103.826666666667" Height="22" />
+    <parameter Id="50b760fd-3f9c-4394-8777-6393f7cacfd2" Left="919.173333333333" Top="22" Width="103.826666666667" Height="22" />
   </object>
   <object Id="e3131d24-1819-41b8-b0b3-d1cfd38a0cec" OffsetX="63.8266666666666" OffsetY="0" Scale="1" SnapToGrid="false">
     <parameter Id="9f079324-d3ad-43ae-8c62-593f572537ae" Left="898" Top="26" Width="103.826666666667" Height="22" />
@@ -159,4 +160,5 @@
     <tcp-server Id="26f69a98-a93c-410b-8011-f1bbbff0e634" Left="914.6866666666667" Top="175.18" Width="108.31333333333333" Height="99.59" />
     <history-module Id="c21016cf-632f-4425-a8e9-02722f1556a1" Left="62" Top="175.17999999999995" Width="134.44333333333333" Height="99.59" />
   </io-server>
+  <object Id="21478f53-5513-49f3-abb4-e7659f92f20c" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false" />
 </Diagrams>
