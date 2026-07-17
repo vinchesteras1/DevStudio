@@ -239,6 +239,9 @@
             </ct:parameter>
             <attribute type="unit.Server.Attributes.Replicate" value="false" />
           </ct:object>
+          <ct:object name="Object1" uuid="21478f53-5513-49f3-abb4-e7659f92f20c">
+            <ct:parameter name="Parameter" uuid="c98a0a22-0d57-440f-999c-01968519a84a" type="bool" direction="in" />
+          </ct:object>
         </dp:application-object>
       </srv:io-server>
     </dp:domain-node>

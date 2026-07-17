@@ -2,8 +2,8 @@
 <BinaryIndex>
   <Name>Alarms</Name>
   <Id>2b43f3d1-e698-4d97-8628-bf2b0ae5990e</Id>
-  <Version>1.0.0.d79</Version>
-  <Hash>1823942D28A0DFA23D6AD4DFEE664D53</Hash>
+  <Version>1.0.0.d80</Version>
+  <Hash>9F265BC48F0ED04E1AE32BA1FA5F91F4</Hash>
   <Dependencies>
     <Dependency Name="Om.System" Id="25f6bbf2-7e85-4083-acb5-88e8c3014e86" Version="1.0.0.0" />
     <Dependency Name="Om.Server" Id="2cb837d5-aaa9-4102-9071-e35ec4961aae" Version="1.0.0.0" />

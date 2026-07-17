@@ -279,4 +279,12 @@
     <node-path>Object.SubjectReference</node-path>
     <key>170</key>
   </item>
+  <item>
+    <node-path>Object1</node-path>
+    <key>171</key>
+  </item>
+  <item>
+    <node-path>Object1.Parameter</node-path>
+    <key>172</key>
+  </item>
 </root>

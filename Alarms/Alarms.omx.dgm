@@ -24,9 +24,10 @@
     <application-object Id="9c4688dc-ec34-40fc-82c9-074cb23e35b2" Left="309" Top="41" Width="150" Height="100" />
   </io-server>
   <application-object Id="9c4688dc-ec34-40fc-82c9-074cb23e35b2" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
-    <object Id="3381194c-2bf7-404d-b461-a2b3f3fa9673" Left="159" Top="26" Width="150" Height="100" />
-    <object Id="eaa143d4-7a03-40d0-aa3d-ac2e8f329b42" Left="432" Top="78" Width="150" Height="100" />
-    <object Id="4f7f5a23-9dc9-4fdb-b71c-509f81a81295" Left="66" Top="235" Width="150" Height="100" />
+    <object Id="3381194c-2bf7-404d-b461-a2b3f3fa9673" Left="159" Top="22" Width="150" Height="100" />
+    <object Id="eaa143d4-7a03-40d0-aa3d-ac2e8f329b42" Left="432" Top="74" Width="150" Height="100" />
+    <object Id="4f7f5a23-9dc9-4fdb-b71c-509f81a81295" Left="66" Top="231" Width="150" Height="100" />
+    <object Id="21478f53-5513-49f3-abb4-e7659f92f20c" Left="413" Top="238" Width="150" Height="100" />
   </application-object>
   <object Id="3381194c-2bf7-404d-b461-a2b3f3fa9673" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
     <object Id="bdbb85f1-5b05-4e38-afa0-db427d116e1a" Left="323" Top="26" Width="150" Height="100" />
