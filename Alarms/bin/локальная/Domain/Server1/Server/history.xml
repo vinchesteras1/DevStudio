@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<History>
+  <Objects>
+    <Object Tag="Alarms.Bool">
+      <Parameters>
+        <Parameter RelativeTag="Bool1" Set="History" />
+      </Parameters>
+    </Object>
+    <Object Tag="Alarms.ChangeTypes">
+      <Parameters>
+        <Parameter RelativeTag="Parameter" Set="History" />
+      </Parameters>
+    </Object>
+    <Object Tag="Trends">
+      <Parameters>
+        <Parameter RelativeTag="Parameter1" Set="History" />
+        <Parameter RelativeTag="Parameter2" Set="History" />
+        <Parameter RelativeTag="Parameter3" Set="History" />
+        <Parameter RelativeTag="Parameter4" Set="History" />
+        <Parameter RelativeTag="Parameter5" Set="History" />
+        <Parameter RelativeTag="Parameter6" Set="History" />
+        <Parameter RelativeTag="Parameter7" Set="History" />
+        <Parameter RelativeTag="Parameter8" Set="History" />
+        <Parameter RelativeTag="Parameter9" Set="History" />
+        <Parameter RelativeTag="Parameter10" Set="History" />
+      </Parameters>
+    </Object>
+  </Objects>
+</History>

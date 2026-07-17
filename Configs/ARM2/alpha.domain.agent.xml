@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Alpha.Domain.Agent>
+  <EntryPointNetAgent Name="LinuxServer2" Address="172.16.145.147" Port="11010" />
+  <InstalledComponents>
+    <Alpha.Server Name="MainServer" ServiceName="alpha.server.service" />
+    <Alpha.Server Name="AccessP" ServiceName="alpha.accesspoint.service" />
+  </InstalledComponents>
+  <Server>
+    <Components>
+      <Component InstalledName="MainServer" Name="Server" />
+    </Components>
+  </Server>
+  <Workstation Dynamic="false">
+    <WorkstationRoles>
+      <WorkstationRole Name="Workstation">
+        <Components>
+          <Component InstalledName="AccessP" Name="AccessPoint" />
+        </Components>
+      </WorkstationRole>
+    </WorkstationRoles>
+  </Workstation>
+</Alpha.Domain.Agent>

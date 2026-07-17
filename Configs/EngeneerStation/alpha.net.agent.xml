@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Alpha.Net.Agent Name="local" NetEnterPort="11010" ParentAgentPort="11020">
+  <!--Дочерние узлы Net-агента-->
+  <ChildAgents>
+    <ChildAgent Name="LinuxServer1" Port="11020">
+      <Address value="172.16.145.113" />
+    </ChildAgent>
+    <ChildAgent Name="LinuxServer2" Port="11020">
+      <Address value="172.16.145.147" />
+    </ChildAgent>
+  </ChildAgents>
+</Alpha.Net.Agent>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Id="2b43f3d1-e698-4d97-8628-bf2b0ae5990e" Version="1.0.0" OutputPath="bin\" IDE="Alpha.DevStudio 3.27.6" UpgradeVersion="5">
+  <Files>
+    <SourceFile Name="Alarms.omx" />
+  </Files>
+</Project>

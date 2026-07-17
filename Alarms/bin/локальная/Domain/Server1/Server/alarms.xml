@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Alarms>
+  <Objects>
+    <Object Tag="Alarms.Bool" Name="Bool">
+      <Conditions>
+        <Condition Type="Discrete" RelativeTag="Bool1">
+          <Subconditions>
+            <Subcondition Type="On" Severity="900">On</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Discrete" RelativeTag="Bool2">
+          <Subconditions>
+            <Subcondition Type="On" Severity="800">On</Subcondition>
+            <Subcondition Type="Off" Severity="800">Off</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Discrete" RelativeTag="Bool3">
+          <Subconditions>
+            <Subcondition Type="On" Severity="700">On</Subcondition>
+            <Subcondition Type="Off" Severity="700">Off</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Discrete" RelativeTag="Bool4">
+          <Subconditions>
+            <Subcondition Type="On" Severity="600">On</Subcondition>
+            <Subcondition Type="Off" Severity="600">Off</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Discrete" RelativeTag="Bool5">
+          <Subconditions>
+            <Subcondition Type="On" Severity="500">On</Subcondition>
+            <Subcondition Type="Off" Severity="500">Off</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Discrete" RelativeTag="Bool6">
+          <Subconditions>
+            <Subcondition Type="On" Severity="400">On</Subcondition>
+            <Subcondition Type="Off" Severity="400">Off</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Discrete" RelativeTag="Bool7">
+          <Subconditions>
+            <Subcondition Type="On" Severity="300">On</Subcondition>
+            <Subcondition Type="Off" Severity="300">Off</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Discrete" RelativeTag="Bool8">
+          <Subconditions>
+            <Subcondition Type="On" Severity="200">On</Subcondition>
+            <Subcondition Type="Off" Severity="200">Off</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Discrete" RelativeTag="Bool9">
+          <Subconditions>
+            <Subcondition Type="On" Severity="100">On</Subcondition>
+            <Subcondition Type="Off" Severity="100">Off</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Discrete" RelativeTag="Bool10">
+          <Subconditions>
+            <Subcondition Type="On" Severity="1">On</Subcondition>
+            <Subcondition Type="Off" Severity="1">Off</Subcondition>
+          </Subconditions>
+        </Condition>
+      </Conditions>
+    </Object>
+    <Object Tag="Alarms.Float" Name="Float">
+      <Conditions>
+        <Condition Type="Level" RelativeTag="Float1">
+          <Subconditions>
+            <Subcondition Type="Above" Severity="900" Value="100">Выше 100</Subcondition>
+            <Subcondition Type="Normal" Severity="900" Value="50">Норма 50</Subcondition>
+            <Subcondition Type="Below" Severity="900" Value="10">Ниже 10</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Level" RelativeTag="Float2">
+          <Subconditions>
+            <Subcondition Type="Above" Severity="800" Value="100">Выше 100</Subcondition>
+            <Subcondition Type="Normal" Severity="800" Value="50">Норма 50</Subcondition>
+            <Subcondition Type="Below" Severity="800" Value="10">Ниже 10</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Level" RelativeTag="Float3">
+          <Subconditions>
+            <Subcondition Type="Above" Severity="700" Value="100">Выше 100</Subcondition>
+            <Subcondition Type="Normal" Severity="700" Value="50">Норма 50</Subcondition>
+            <Subcondition Type="Below" Severity="700" Value="10">Ниже 10</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Level" RelativeTag="Float4">
+          <Subconditions>
+            <Subcondition Type="Above" Severity="600" Value="100">Выше 100</Subcondition>
+            <Subcondition Type="Normal" Severity="600" Value="50">Норма 50</Subcondition>
+            <Subcondition Type="Below" Severity="600" Value="10">Ниже 10</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Level" RelativeTag="Float5">
+          <Subconditions>
+            <Subcondition Type="Above" Severity="500" Value="100">Выше 100</Subcondition>
+            <Subcondition Type="Normal" Severity="500" Value="50">Норма 50</Subcondition>
+            <Subcondition Type="Below" Severity="500" Value="10">Ниже 10</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Level" RelativeTag="Float6">
+          <Subconditions>
+            <Subcondition Type="Above" Severity="400" Value="100">Выше 100</Subcondition>
+            <Subcondition Type="Normal" Severity="400" Value="50">Норма 50</Subcondition>
+            <Subcondition Type="Below" Severity="400" Value="10">Ниже 10</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Level" RelativeTag="Float7">
+          <Subconditions>
+            <Subcondition Type="Above" Severity="300" Value="100">Выше 100</Subcondition>
+            <Subcondition Type="Normal" Severity="300" Value="50">Норма 50</Subcondition>
+            <Subcondition Type="Below" Severity="300" Value="10">Ниже 10</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Level" RelativeTag="Float8">
+          <Subconditions>
+            <Subcondition Type="Above" Severity="200" Value="100">Выше 100</Subcondition>
+            <Subcondition Type="Normal" Severity="200" Value="50">Норма 50</Subcondition>
+            <Subcondition Type="Below" Severity="200" Value="10">Ниже 10</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Level" RelativeTag="Float9">
+          <Subconditions>
+            <Subcondition Type="Above" Severity="100" Value="100">Выше 100</Subcondition>
+            <Subcondition Type="Normal" Severity="100" Value="50">Норма 50</Subcondition>
+            <Subcondition Type="Below" Severity="100" Value="10">Ниже 10</Subcondition>
+          </Subconditions>
+        </Condition>
+        <Condition Type="Level" RelativeTag="Float10">
+          <Subconditions>
+            <Subcondition Type="Above" Severity="1" Value="100">Выше 100</Subcondition>
+            <Subcondition Type="Normal" Severity="1" Value="50">Норма 50</Subcondition>
+            <Subcondition Type="Below" Severity="1" Value="10">Ниже 10</Subcondition>
+          </Subconditions>
+        </Condition>
+      </Conditions>
+    </Object>
+    <Object Tag="Alarms.ChangeTypes" Name="ChangeTypes">
+      <Conditions>
+        <Condition Type="Level" RelativeTag="Parameter">
+          <Subconditions>
+            <Subcondition Type="Above" Severity="1" Value="100">Выше 100</Subcondition>
+            <Subcondition Type="Normal" Severity="1" Value="50">норма</Subcondition>
+            <Subcondition Type="Below" Severity="1" Value="10">ниже 10</Subcondition>
+          </Subconditions>
+        </Condition>
+      </Conditions>
+    </Object>
+    <Object Tag="Alarms.LongText" Name="LongText">
+      <Conditions>
+        <Condition Type="Discrete" RelativeTag="Parameter">
+          <Subconditions>
+            <Subcondition Type="On" Severity="1">Длинный текст- Длинный текс-Длинный текст-Длинный текст-Длинный текст-Длинный текст-Длинный текст-Длинный текст-Длинный текст-Длинный текст-Длинный текст-Длинный текст-Длинный текст-Длинный текст-Длинный текст-Длинный текст</Subcondition>
+            <Subcondition Type="Off" Severity="1">Короткий текст</Subcondition>
+          </Subconditions>
+        </Condition>
+      </Conditions>
+    </Object>
+  </Objects>
+</Alarms>

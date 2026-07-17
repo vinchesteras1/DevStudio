@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Diagrams>
+  <omx Id="2b43f3d1-e698-4d97-8628-bf2b0ae5990e" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <link-unit Id="87b5a516-bdd4-4a47-b844-b71c839940aa" Left="40" Top="24" Width="150.14" Height="36.63" />
+    <link-unit Id="e9323bd0-8146-43bb-a41d-6032e842c301" Left="230.14" Top="24" Width="145.943333333333" Height="36.63" />
+    <domain Id="44192e89-b781-41c3-aef7-5b32962ab0fa" Left="416.083333333333" Top="24" Width="106.51" Height="90.63" />
+    <namespace Id="0cbc40dc-91e0-4410-8a51-bc2414cf079c" Left="199" Top="242" Width="150" Height="100" />
+  </omx>
+  <domain Id="44192e89-b781-41c3-aef7-5b32962ab0fa" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <domain-node Id="4a73dc56-9bf3-4c27-9a9c-1c5c55353313" Left="40" Top="40" Width="231.993333333333" Height="128" />
+    <ethernet-net Id="1d8af792-4ab3-465d-917e-7fc58ac0312b" Left="302.5" Top="20" Width="76.0066666666667" Height="32.59" />
+    <domain-node Id="baba4054-2e3d-4169-9206-46566c6c101b" Left="579" Top="62" Width="150" Height="100" />
+    <workstation Id="9dda1e6c-3f0d-4e02-8e04-f486514901c5" Left="213" Top="296" Width="150" Height="100" />
+  </domain>
+  <domain-node Id="4a73dc56-9bf3-4c27-9a9c-1c5c55353313" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <ethernet-adapter Id="1e9e1fa8-0674-454b-b3ca-cf9c004e694e" Left="20" Top="95.020687599182" Width="137.993333333333" Height="55.63" />
+    <io-server Id="d3eebe7b-b7af-45b5-accc-e9bdb844a766" Left="267" Top="24" Width="150" Height="150" />
+  </domain-node>
+  <io-server Id="d3eebe7b-b7af-45b5-accc-e9bdb844a766" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <opcaeserver-module Id="0529c188-b51c-46f4-9467-7531ae35f700" Left="907.973333333333" Top="22" Width="115.026666666667" Height="36.63" />
+    <opcua-module Id="e1671a51-3339-43ab-a57a-7944285ae08b" Left="906.246666666667" Top="98.63" Width="116.753333333333" Height="36.63" />
+    <tcp-server Id="4b551927-4957-4f46-b92c-505c6ad628bf" Left="898.266666666667" Top="175.26" Width="124.733333333333" Height="99.63" />
+    <history-module Id="a0359ce2-e1ba-43bc-8024-07d67f6d8074" Left="66" Top="175.26" Width="152.443333333333" Height="99.63" />
+    <application-object Id="9c4688dc-ec34-40fc-82c9-074cb23e35b2" Left="309" Top="41" Width="150" Height="100" />
+  </io-server>
+  <application-object Id="9c4688dc-ec34-40fc-82c9-074cb23e35b2" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <object Id="3381194c-2bf7-404d-b461-a2b3f3fa9673" Left="159" Top="26" Width="150" Height="100" />
+    <object Id="eaa143d4-7a03-40d0-aa3d-ac2e8f329b42" Left="432" Top="78" Width="150" Height="100" />
+    <object Id="4f7f5a23-9dc9-4fdb-b71c-509f81a81295" Left="66" Top="235" Width="150" Height="100" />
+  </application-object>
+  <object Id="3381194c-2bf7-404d-b461-a2b3f3fa9673" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <object Id="bdbb85f1-5b05-4e38-afa0-db427d116e1a" Left="323" Top="26" Width="150" Height="100" />
+    <object Id="c30e0671-8199-460e-b7d6-d03c5a6eacd9" Left="326" Top="135" Width="150" Height="100" />
+    <object Id="2cd353b0-722b-4792-8e6c-17f1c14c7c0d" Left="588" Top="59" Width="150" Height="100" />
+    <object Id="6420236f-875a-4d51-94a9-d12fe7379c01" Left="588" Top="212" Width="150" Height="100" />
+  </object>
+  <object Id="bdbb85f1-5b05-4e38-afa0-db427d116e1a" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <parameter Id="2dcce9ca-4abc-4236-9f7e-89707856fbc3" Left="588" Top="26" Width="103.826666666667" Height="22" />
+    <parameter Id="1ea860b7-8d49-4ce8-a4f3-8dc90a0c430b" Left="588" Top="52" Width="103.826666666667" Height="22" />
+    <parameter Id="5fde1f0f-d312-4446-9702-ae91df833fb7" Left="588" Top="78" Width="103.826666666667" Height="22" />
+    <parameter Id="b88a1cf1-39cc-4faf-a567-ed4638e9d095" Left="588" Top="104" Width="103.826666666667" Height="22" />
+    <parameter Id="878b071c-d342-4737-9ed0-d74d1f4e7531" Left="588" Top="130" Width="103.826666666667" Height="22" />
+    <parameter Id="41b4bbf1-7725-4b01-b576-536e25216fa9" Left="588" Top="156" Width="103.826666666667" Height="22" />
+    <parameter Id="81499a26-7591-4068-9c77-c62b696d5033" Left="588" Top="182" Width="103.826666666667" Height="22" />
+    <parameter Id="c84b4828-0317-4bf1-a9a8-43483c1c2b6e" Left="588" Top="208" Width="103.826666666667" Height="22" />
+    <parameter Id="98b12a89-42c2-49d6-a354-ead89793c9c8" Left="588" Top="234" Width="103.826666666667" Height="22" />
+    <parameter Id="fa394e3c-42c5-473d-831e-56f3649886e9" Left="588" Top="260" Width="103.826666666667" Height="22" />
+    <object Id="e3f123dc-68e7-4a6b-873b-26620f9e2b91" Left="396" Top="26" Width="150" Height="100" />
+    <object Id="40625ddd-542a-44bc-8570-44d551270007" Left="66" Top="165" Width="370" Height="236.63">
+      <Inputs />
+      <Outputs>
+        <Socket Name="ResultInBranch_OUT" IsExpanded="true">
+          <Socket Name="ResultActiveInBranch_OUT" IsExpanded="true" />
+        </Socket>
+      </Outputs>
+    </object>
+  </object>
+  <object Id="c30e0671-8199-460e-b7d6-d03c5a6eacd9" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <parameter Id="c909d332-3c46-40a2-9208-961164a90e0d" Left="924.173333333333" Top="26" Width="103.826666666667" Height="22" />
+    <parameter Id="74fca516-901f-4eb3-a2f9-ae3d8487a0a7" Left="924.173333333333" Top="52" Width="103.826666666667" Height="22" />
+    <parameter Id="ec787b8e-7ad4-4e3f-8ca3-44e90b07c370" Left="924.173333333333" Top="78" Width="103.826666666667" Height="22" />
+    <parameter Id="3b0894e8-938e-4302-baab-57fa34cbb18f" Left="924.173333333333" Top="104" Width="103.826666666667" Height="22" />
+    <parameter Id="bb748bd8-ca36-42f0-ae53-9f00bc334ddf" Left="924.173333333333" Top="130" Width="103.826666666667" Height="22" />
+    <parameter Id="bb45a7bb-8c0c-4d96-b8dc-e3d56a10063e" Left="924.173333333333" Top="156" Width="103.826666666667" Height="22" />
+    <parameter Id="ca5ac5ed-577a-4aeb-ac55-70627605bee1" Left="924.173333333333" Top="182" Width="103.826666666667" Height="22" />
+    <parameter Id="fbd3f13b-76d5-4732-8aa1-71db2c47480b" Left="924.173333333333" Top="208" Width="103.826666666667" Height="22" />
+    <parameter Id="0812b422-ffe1-4411-8024-5b55761d8d15" Left="924.173333333333" Top="234" Width="103.826666666667" Height="22" />
+    <parameter Id="51d7cd3c-a154-48d5-8b9a-1b6cd978f714" Left="924.173333333333" Top="260" Width="103.826666666667" Height="22" />
+    <timer Id="6cb6a507-fd7e-4f98-bc4a-4c5723e50f25" Left="178" Top="106" Width="148.3" Height="60.96" />
+    <handler Id="a0237e0d-319e-414e-a636-fef04d3388f8" Left="446" Top="174" Width="119.84" Height="24" IsExpanded="true" />
+    <parameter Id="111dbb84-1282-4b7a-8afe-0957fa8663ab" Left="24" Top="124" Width="103.826666666667" Height="22" />
+  </object>
+  <domain-node Id="baba4054-2e3d-4169-9206-46566c6c101b" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <ethernet-adapter Id="211d9a97-a1b3-4f80-9b33-b3ae5d9d5fcb" Left="10" Top="168.520687599182" Width="159.993333333333" Height="55.63" />
+    <redundant-server Id="6faacb33-7002-4f1d-880b-55918b8e7331" Left="323" Top="59" Width="248.8" Height="149" />
+    <historian Id="21017803-e514-4e9d-81b1-42376320b357" Left="574" Top="200" Width="150" Height="100" />
+    <postgre Id="8ae4f73d-b3f9-498c-81c4-9f204eb052c0" Left="475" Top="259" Width="150" Height="100" />
+  </domain-node>
+  <workstation Id="9dda1e6c-3f0d-4e02-8e04-f486514901c5" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <abstract-ethernet-adapter Id="3db490d5-07ea-4ad5-b5e9-8c9f7022f829" Left="681" Top="289.520687599182" Width="172.63" Height="45.63" />
+    <access-point Id="3cf0e32a-a0d4-4b18-bd53-4c45ea9b3368" Left="277" Top="26" Width="422" Height="179" />
+  </workstation>
+  <access-point Id="3cf0e32a-a0d4-4b18-bd53-4c45ea9b3368" OffsetX="11" OffsetY="0" Scale="1" SnapToGrid="false">
+    <opcaeserver-module Id="ca5fc9ce-3119-4354-b3f8-b90460698c69" Left="750.693333333333" Top="26" Width="115.026666666667" Height="36.63" />
+    <tcp-server Id="c328a213-8bdb-4524-a97c-72df692f620c" Left="740.986666666667" Top="102.63" Width="124.733333333333" Height="99.63" />
+    <hub-module Id="cf7aae47-ff4d-4811-a41b-53fa8c155c74" Left="24" Top="26" Width="137.21" Height="99.63" />
+    <application-object Id="818f1920-3e0c-4950-888d-d11edb6cc570" Left="423" Top="26" Width="150" Height="100" />
+    <opcua-module Id="dfb05a5b-fb82-4f55-b0fa-0b2953855593" Left="734.986666666667" Top="233" Width="131.013333333333" Height="36.63" />
+    <history-module Id="0687c7ab-ec71-4cf2-9b69-959a82c80c7f" Left="375" Top="250" Width="152.443333333333" Height="99.63" />
+  </access-point>
+  <application-object Id="818f1920-3e0c-4950-888d-d11edb6cc570" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <subject-ref Id="6b7fe30f-55cf-4fdc-8ff4-7d4986244deb" Left="285" Top="26" Width="254.206666666667" Height="122.63" />
+    <object Id="e3131d24-1819-41b8-b0b3-d1cfd38a0cec" Left="347" Top="217" Width="150" Height="100" />
+  </application-object>
+  <object Id="c349ea90-8ca9-462b-a7df-3945709b5d20" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false" />
+  <object Id="2cd353b0-722b-4792-8e6c-17f1c14c7c0d" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <parameter Id="43e1aba3-e724-46e9-aaaf-2a4f98ac68f1" Left="861.173333333333" Top="26" Width="103.826666666667" Height="22" />
+  </object>
+  <object Id="eaa143d4-7a03-40d0-aa3d-ac2e8f329b42" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <parameter Id="6c5f51ce-a952-4076-b20c-d419c40099ee" Left="891.173333333333" Top="26" Width="103.826666666667" Height="22" />
+    <parameter Id="b777611f-1adb-4ff0-87b0-9a9ec4cf4766" Left="891.173333333333" Top="52" Width="103.826666666667" Height="22" />
+    <parameter Id="e20ed04e-b388-4657-9593-6818b4fe9e0d" Left="891.173333333333" Top="78" Width="103.826666666667" Height="22" />
+    <parameter Id="0b545a9b-7d62-483e-8ca2-7bd4606d0b2b" Left="891.173333333333" Top="104" Width="103.826666666667" Height="22" />
+    <parameter Id="15a2f659-660e-475f-853a-08d7a39ed20e" Left="891.173333333333" Top="130" Width="103.826666666667" Height="22" />
+    <parameter Id="de881a20-b024-4b59-bda5-511ff1d9f199" Left="891.173333333333" Top="156" Width="103.826666666667" Height="22" />
+    <parameter Id="396cbd68-84de-47d4-bde2-00cf43705e1a" Left="891.173333333333" Top="182" Width="103.826666666667" Height="22" />
+    <parameter Id="b4d7f5be-92a1-4ae6-857f-5bc509ceacdf" Left="891.173333333333" Top="208" Width="103.826666666667" Height="22" />
+    <parameter Id="8284b22e-cccd-4a08-aa4f-f217abd6591b" Left="891.173333333333" Top="234" Width="103.826666666667" Height="22" />
+    <parameter Id="ae66ea35-4dcb-4610-bed3-0577f28416fd" Left="891.173333333333" Top="260" Width="103.826666666667" Height="22" />
+  </object>
+  <object Id="e3f123dc-68e7-4a6b-873b-26620f9e2b91" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <parameter Id="de0f3b86-ff3d-4de3-8e4d-1de800c88e65" Left="857.173333333333" Top="26" Width="103.826666666667" Height="22" />
+    <parameter Id="10381639-a3f6-42e7-892f-9c9460c3ccad" Left="847.173333333333" Top="71" Width="103.826666666667" Height="22" />
+  </object>
+  <namespace Id="0cbc40dc-91e0-4410-8a51-bc2414cf079c" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <type Id="1288a8cd-9ed9-4df1-b4ad-8c3a42e292b8" Left="391" Top="183" Width="150" Height="100">
+      <Inputs />
+      <Outputs />
+    </type>
+  </namespace>
+  <type Id="1288a8cd-9ed9-4df1-b4ad-8c3a42e292b8" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <object Id="987ecbf2-3692-408b-98ea-6747a88f8940" Left="220" Top="26" Width="304" Height="110" />
+    <socket Id="6696148e-b7b6-42ff-8c9d-a6f85beffa1e" Left="24" Top="26" Width="154" Height="179" IsExpanded="true" />
+    <socket Id="d8acabd1-4cbc-48fb-a96c-85892db7b874" Left="872" Top="26" Width="150" Height="288.59" IsExpanded="true">
+      <Socket Name="ResultActiveInBranch_OUT" IsExpanded="true" />
+      <Socket Name="ResultAcknowledgeInBranch_OUT" IsExpanded="true" />
+      <Socket Name="ResultForeignAcknowledgeInBranch_OUT" IsExpanded="true" />
+    </socket>
+  </type>
+  <object Id="6420236f-875a-4d51-94a9-d12fe7379c01" OffsetX="22" OffsetY="0" Scale="1" SnapToGrid="false">
+    <parameter Id="2690bd1b-9dc3-4829-aed7-eec90384b5b8" Left="108" Top="26" Width="103.826666666667" Height="22" />
+  </object>
+  <object Id="4f7f5a23-9dc9-4fdb-b71c-509f81a81295" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <parameter Id="50b760fd-3f9c-4394-8777-6393f7cacfd2" Left="830.173333333333" Top="26" Width="103.826666666667" Height="22" />
+  </object>
+  <object Id="e3131d24-1819-41b8-b0b3-d1cfd38a0cec" OffsetX="63.8266666666666" OffsetY="0" Scale="1" SnapToGrid="false">
+    <parameter Id="9f079324-d3ad-43ae-8c62-593f572537ae" Left="898" Top="26" Width="103.826666666667" Height="22" />
+  </object>
+  <access-point Id="fc183d06-b6a2-469f-9e19-9e15fa8692ee" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <opcaeserver-module Id="db52dcfd-9158-417c-bcc3-af95c113297b" Left="818.973333333333" Top="26" Width="115.026666666667" Height="36.59" />
+    <tcp-server Id="2c34b76d-08c5-41a8-b514-87600dbacffb" Left="827.266666666667" Top="102.59" Width="106.733333333333" Height="99.59" />
+    <hub-module Id="37fe2c57-ba02-4bb9-9957-4ffad59bfed9" Left="24" Top="26" Width="119.21" Height="99.59" />
+    <application-object Id="81f65df4-71d0-4078-9853-cebef2d2d765" Left="230" Top="102.18" Width="150" Height="100" />
+  </access-point>
+  <application-object Id="81f65df4-71d0-4078-9853-cebef2d2d765" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <object Id="15618be1-7101-4fcd-8d6f-3a54ecb21d3c" Left="305" Top="26" Width="150" Height="100" />
+  </application-object>
+  <object Id="15618be1-7101-4fcd-8d6f-3a54ecb21d3c" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <parameter Id="68b41f6e-282c-4be0-9849-ada7cadc526b" Left="832" Top="26" Width="103.826666666667" Height="22" />
+    <subject-ref Id="489f9489-3d23-47d8-8d45-3f60773244f4" Left="254" Top="26" Width="147.206666666667" Height="50.59" />
+  </object>
+  <domain-node Id="88601cbe-dd43-4312-abb4-814f95fb41b6" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <ethernet-adapter Id="303575a9-fc66-47a2-b385-15ed8161f4bb" Left="20" Top="192.5206875991821" Width="141.99333333333334" Height="55.59" />
+    <io-server Id="a30ab2e0-5db8-4864-a531-976e850e704a" Left="293" Top="24" Width="150" Height="150" />
+  </domain-node>
+  <io-server Id="a30ab2e0-5db8-4864-a531-976e850e704a" OffsetX="0" OffsetY="0" Scale="1" SnapToGrid="false">
+    <opcaeserver-module Id="04910111-9cbc-48cf-a82e-31f6e0e15879" Left="903.9733333333334" Top="22" Width="119.02666666666667" Height="36.59" />
+    <opcua-module Id="1f267d70-15fd-4830-88b9-6254e97f0e9a" Left="902.2466666666667" Top="98.59" Width="120.75333333333334" Height="36.59" />
+    <tcp-server Id="26f69a98-a93c-410b-8011-f1bbbff0e634" Left="914.6866666666667" Top="175.18" Width="108.31333333333333" Height="99.59" />
+    <history-module Id="c21016cf-632f-4425-a8e9-02722f1556a1" Left="62" Top="175.17999999999995" Width="134.44333333333333" Height="99.59" />
+  </io-server>
+</Diagrams>

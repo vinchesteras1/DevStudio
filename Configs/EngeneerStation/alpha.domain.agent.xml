@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Alpha.Domain.Agent>
+  <EntryPointNetAgent Name="local" Address="127.0.0.1" Port="11010" />
+  <InstalledComponents>
+    <Alpha.Server Name="MainServer" ServiceName="Alpha.Server" />
+  </InstalledComponents>
+  <Server>
+    <Components>
+      <Component InstalledName="MainServer" Name="Server" />
+    </Components>
+  </Server>
+  <Domain>
+    <WorkstationRoles>
+      <WorkstationRole Name="Workstation">
+        <KnownWorkstations>
+          <KnownWorkstation NetPath="LinuxServer1" Description="Описание для Node1" />
+          <KnownWorkstation NetPath="LinuxServer2" Description="Описание для Node2" />
+        </KnownWorkstations>
+      </WorkstationRole>
+    </WorkstationRoles>
+  </Domain>
+</Alpha.Domain.Agent>
